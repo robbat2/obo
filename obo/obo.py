@@ -686,4 +686,5 @@ def main():
     cmd = OboCommand()._parse()
     cmd()
 
-
+if __name__ == '__main__':
+    main()
